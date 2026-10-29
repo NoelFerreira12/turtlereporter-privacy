@@ -3,113 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Privacy Policy of the TurtleReporter app (sea turtle sightings, Wave Labs and University of Madeira).">
 <title>Privacy Policy — TurtleReporter</title>
 <style>
-:root{color-scheme:light dark}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65;margin:0;padding:0 16px;background:#f8fafc;color:#1e293b}
-@media (prefers-color-scheme:dark){body{background:#0f172a;color:#e2e8f0}header{background:#1e3a5f}section{background:#1e293b}}
-main{max-width:720px;margin:0 auto;padding-bottom:48px}
-header{background:#194a8e;color:#fff;margin:0 -16px;padding:32px 16px;text-align:center}
-header h1{margin:0;font-size:1.6rem}
-header p{margin:8px 0 0;opacity:.85;font-size:.95rem}
-section{background:#fff;border-radius:12px;padding:20px 24px;margin-top:20px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-h2{font-size:1.15rem;color:#194a8e;margin-top:0}
-@media (prefers-color-scheme:dark){h2{color:#7eb3ff}}
+:root{color-scheme:light dark;--bg:#f8fafc;--fg:#1e293b;--muted:#64748b;--card:#fff;--brand:#194a8e;--accent:#2563eb;--soft:#eff6ff;--line:#e2e8f0}
+@media (prefers-color-scheme:dark){:root{--bg:#0f172a;--fg:#e2e8f0;--muted:#94a3b8;--card:#1e293b;--brand:#1e3a5f;--accent:#7eb3ff;--soft:#172554;--line:#334155}}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65;margin:0;padding:0 16px;background:var(--bg);color:var(--fg);font-size:16px}
+header{background:var(--brand);color:#fff;margin:0 -16px;padding:32px 16px;text-align:center}
+header h1{margin:0;font-size:1.7rem}
+header p{margin:6px 0 0;opacity:.9;font-size:.95rem}
+main{max-width:760px;margin:0 auto;padding-bottom:48px}
+section,nav,.summary{background:var(--card);border-radius:12px;padding:20px 24px;margin-top:20px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.summary{background:var(--soft);border-left:4px solid var(--accent)}
+.summary h2{margin-top:0}
+h2{font-size:1.15rem;color:var(--accent);margin:0 0 10px}
+h3{font-size:1rem;margin:16px 0 6px}
+nav ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
+nav li{margin-bottom:4px;break-inside:avoid}
 ul{padding-left:20px}
 li{margin-bottom:6px}
-a{color:#2563eb;word-break:break-all}
-footer{text-align:center;font-size:.85rem;opacity:.7;padding:24px 0}
-@media (max-width:480px){section{padding:16px}header h1{font-size:1.3rem}}
+a{color:var(--accent);overflow-wrap:anywhere}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+td,th{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{font-weight:600}
+code{font-size:.88em;font-weight:400}
+.muted{color:var(--muted);font-size:.92rem}
+footer{text-align:center;font-size:.85rem;color:var(--muted);padding:24px 0}
+@media (max-width:560px){section,nav,.summary{padding:16px}header h1{font-size:1.35rem}nav ol{columns:1}table,tbody,tr,td{display:block;width:100%}tr:first-child{display:none}tr{border-top:1px solid var(--line);padding:10px 0}td{border:0;padding:2px 0}td:first-child{font-weight:600}}
+@media print{body{background:#fff;color:#000}header{background:#fff;color:#000}section,nav,.summary{box-shadow:none;border:1px solid #ccc}}
 </style>
 </head>
 <body>
 <header>
 <h1>Privacy Policy</h1>
-<p>TurtleReporter</p>
-<p>Last updated: July 14, 2026</p>
+<p>TurtleReporter — Wave Labs · University of Madeira</p>
+<p>Last updated: October 29, 2026</p>
 </header>
 <main>
-<section>
+
+<div class="summary">
+<h2>At a glance</h2>
+<ul>
+<li>We collect your <strong>name, email and password</strong> to run your account, and the <strong>sightings, photos and trip routes</strong> you choose to record.</li>
+<li>Your <strong>location</strong> is used to place each sighting on the map and to record the boat's route <strong>only while a trip you started is active</strong> — including with the screen off, with a persistent notification. It stops when you end the trip.</li>
+<li>We <strong>do not sell</strong> your data, do not use it for advertising and do not share it with business partners.</li>
+<li>You can <strong>delete your account</strong> at any time in the app (Profile → Delete Account) — see <a href="./delete-account.html">Account &amp; Data Deletion</a>.</li>
+</ul>
+</div>
+
+<nav aria-label="Contents">
+<h2>Contents</h2>
+<ol>
+<li><a href="#definitions">Definitions</a></li>
+<li><a href="#data">Data we collect</a></li>
+<li><a href="#location">Location</a></li>
+<li><a href="#use">How we use your data</a></li>
+<li><a href="#storage">Where your data is stored</a></li>
+<li><a href="#retention">Retention</a></li>
+<li><a href="#account-deletion">Account deletion and your rights</a></li>
+<li><a href="#permissions">Device permissions</a></li>
+<li><a href="#security">Disclosure and security</a></li>
+<li><a href="#children">Children</a></li>
+<li><a href="#changes">Changes to this policy</a></li>
+<li><a href="#contact">Contact</a></li>
+</ol>
+</nav>
+
+<section id="definitions">
 <h2>1. Definitions</h2>
 <ul>
-<li><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named TurtleReporter.</li>
-<li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Wave Labs, ITI/LARSyS, ARDITI, Polo Científico e Tecnológico da Madeira, Caminho da Penteada, piso -2 9020-105 Funchal Portugal.</li>
-<li><strong>Country</strong> refers to: Portugal.</li>
-<li><strong>Account</strong> means a unique account created for You to access our Service.</li>
+<li><strong>Application</strong> means the TurtleReporter software provided by the Company and downloaded by You on any electronic device.</li>
+<li><strong>Company</strong> ("the Company", "We", "Us" or "Our") refers to Wave Labs, ITI/LARSyS, ARDITI, Polo Científico e Tecnológico da Madeira, Caminho da Penteada, piso -2, 9020-105 Funchal, Portugal, which develops the Application together with the University of Madeira.</li>
+<li><strong>Country</strong> refers to Portugal.</li>
+<li><strong>Account</strong> means a unique account created for You to access the Service.</li>
 <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
 <li><strong>Service</strong> refers to the Application.</li>
 <li><strong>You</strong> means the individual accessing or using the Service.</li>
 </ul>
-<p>The Application is used to record sea turtle sightings for conservation and scientific research purposes.</p>
+<p>The Application is used to record sea turtle sightings for conservation and scientific research.</p>
 </section>
-<section>
-<h2>2. Types of Data Collected</h2>
+
+<section id="data">
+<h2>2. Data we collect</h2>
 <ul>
-<li><strong>Account data:</strong> first and last name, email address, phone number (optional) and password, provided upon registration.</li>
-<li><strong>Location:</strong> with Your prior permission, the Device's GPS position is collected to record the route of observation trips and to georeference reported sightings. Location is only collected while a trip is active or when creating a sighting, never in the background without an active trip.</li>
-<li><strong>Pictures:</strong> with Your prior permission, the Application accesses the Device's camera and photo library exclusively to attach images of the sky, the sea and the turtles to sighting reports, and to set a profile picture.</li>
-<li><strong>Preferences:</strong> application language and usage settings.</li>
-<li><strong>Usage Data:</strong> collected automatically when communicating with Our servers, such as the Device's IP address, device model, operating system and access logs, used exclusively for security and diagnostics.</li>
+<li><strong>Account data:</strong> name, email address and password, provided when You register. The password is stored only as a one-way cryptographic hash. You may also add a profile photo.</li>
+<li><strong>Sightings, reports and trips:</strong> the information You enter (species, number of animals, date and time, sea and sky conditions, notes), the photographs You attach and the position of each sighting.</li>
+<li><strong>Location:</strong> see <a href="#location">section 3</a>.</li>
+<li><strong>Photographs:</strong> taken with the camera or chosen by You from the Device, only to attach them to a sighting or report or to set a profile photo. The Application does not read Your photo library beyond the photos You select.</li>
+<li><strong>Preferences:</strong> application language and settings, kept on the Device and in Your Account.</li>
+<li><strong>Usage Data:</strong> collected automatically when the Application communicates with Our server (IP address, device and system information sent with each request, access logs), used only for security and troubleshooting.</li>
 </ul>
+<p class="muted">If You use the guest mode, no name or email is collected; trips and sightings are recorded without an Account.</p>
 </section>
-<section>
-<h2>3. Use of Your Personal Data</h2>
+
+<section id="location">
+<h2>3. Location</h2>
+<p>With Your permission, the Application uses the Device's precise GPS position:</p>
 <ul>
-<li>To provide and maintain our Service, including creating and authenticating Your Account.</li>
-<li>To record and display Your sightings, trips and routes on the map.</li>
-<li>To support scientific research on sea turtles, using aggregated and georeferenced data.</li>
-<li>To improve and monitor the functioning of the Service.</li>
+<li><strong>During a trip You start:</strong> the route of the boat is recorded about every 10 seconds. Recording continues when the Application is in the background, the screen is off or the Application has been closed, through a foreground service that shows a persistent notification. Recording stops when You end the trip.</li>
+<li><strong>When You create a sighting or report:</strong> the position is read once to georeference it.</li>
+<li><strong>While the Application is open:</strong> the position may be read to show where You are on the map or to help You choose a point; it is not stored for this purpose.</li>
 </ul>
-<p>We do not sell Your Personal Data, do not share it with business partners, and do not use it for marketing or advertising.</p>
+<p><strong>No location is collected in the background when there is no active trip.</strong> The name of the trip's starting place is obtained from the Device's geocoding service. Positions are sent to Our server as part of the scientific record.</p>
 </section>
-<section>
-<h2>4. Where Your Data Is Stored</h2>
-<p>Account authentication is managed by <strong>Firebase Authentication</strong> (Google LLC), which stores Your email and access credentials in encrypted form. All other data — profile, sightings, photographs, trips and GPS positions — is stored on the <strong>Company's server</strong>, operated by the project team. All communication between the Application and the servers uses secure connections (HTTPS) only.</p>
-<p>The Application also uses Google Maps to display maps, subject to Google's privacy policy.</p>
-<p><strong>International transfer:</strong> Google services (Firebase, Maps) may process data on servers located outside Portugal or the European Union. Such transfers take place under the safeguards provided by the GDPR, including standard contractual clauses.</p>
+
+<section id="use">
+<h2>4. How we use your data</h2>
+<ul>
+<li>To provide and maintain the Service, including creating and authenticating Your Account.</li>
+<li>To record and display Your sightings, trips and routes.</li>
+<li>To support scientific research on sea turtles by the University of Madeira, using the sighting records and routes.</li>
+<li>To keep the Service secure and working properly.</li>
+<li>To send You service emails You request, such as a password reset link.</li>
+</ul>
+<p>We do not sell Your Personal Data, do not share it with business partners and do not use it for marketing or advertising.</p>
 </section>
-<section>
-<h2>5. Retention of Your Personal Data</h2>
-<p>Personal Data is retained for as long as Your Account is active. After Account deletion, Personal Data is removed from Our systems; scientific sighting data may be retained in anonymized form, with no link to Your identity.</p>
+
+<section id="storage">
+<h2>5. Where your data is stored</h2>
+<p>Your Account, sightings, photographs, trips and GPS positions are stored on the <strong>project's server, hosted by the University of Madeira in Portugal</strong> and operated by the project team. All communication between the Application and the server uses encrypted connections (HTTPS) only.</p>
+<p><strong>Older accounts:</strong> Accounts created before October 22, 2026 were registered with <strong>Firebase Authentication</strong> (Google LLC). For these Accounts, Firebase may still hold the email address and an authentication record until the Account is deleted.</p>
+<p><strong>Third-party services:</strong> maps are displayed with Google Maps, and place names are obtained from the Device's geocoding service, both subject to Google's privacy policy. Password reset emails are delivered through Brevo (Sendinblue SAS, France).</p>
+<p><strong>International transfers:</strong> these providers may process data on servers outside Portugal or the European Union, under the safeguards of the GDPR, including standard contractual clauses.</p>
 </section>
+
+<section id="retention">
+<h2>6. Retention</h2>
+<p>Personal Data is kept while Your Account is active. When the Account is deleted, Personal Data is removed from Our systems; sighting records may be kept in anonymised form, with no link to Your identity, because they are part of a scientific dataset. Details are on the <a href="./delete-account.html">Account &amp; Data Deletion</a> page.</p>
+</section>
+
 <section id="account-deletion">
-<h2>6. Account Deletion and Your Rights</h2>
-<p>You have the right to access, rectify and erase Your Personal Data, and to withdraw consent at any time.</p>
-<p><strong>You can delete Your Account directly in the Application:</strong> Profile → Delete Account. This removes Your authentication account (Firebase) and all associated Personal Data on Our server.</p>
-<p>Alternatively, You may request Account deletion or exercise any other right by contacting Us using the details below. We will respond within 30 days.</p>
-<p>Full instructions, including what data is deleted and what is retained in anonymized form, are on the <a href="./delete-account.html">Account &amp; Data Deletion</a> page.</p>
+<h2>7. Account deletion and your rights</h2>
+<p>You have the right to access, rectify and erase Your Personal Data, to object to or restrict its processing, to data portability and to withdraw consent at any time. You may also lodge a complaint with the Portuguese data protection authority (CNPD).</p>
+<p><strong>Delete Your Account in the Application:</strong> Profile → Delete Account. This removes Your Account, Your profile photo and Your sessions from Our server and, for older Accounts, the Firebase authentication record.</p>
+<p>You may also request deletion, or exercise any other right, by contacting Us (<a href="#contact">section 12</a>). We reply within 30 days. Full details: <a href="./delete-account.html">Account &amp; Data Deletion</a>.</p>
 </section>
-<section>
-<h2>7. Device Permissions</h2>
+
+<section id="permissions">
+<h2>8. Device permissions</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Precise and approximate location<br><code>ACCESS_<wbr>FINE_<wbr>LOCATION</code>, <code>ACCESS_<wbr>COARSE_<wbr>LOCATION</code></td><td>Georeference sightings and record the route of a trip</td></tr>
+<tr><td>Background location<br><code>ACCESS_<wbr>BACKGROUND_<wbr>LOCATION</code></td><td>Keep recording the route of an active trip when the screen is off or the Application is closed</td></tr>
+<tr><td>Foreground service<br><code>FOREGROUND_<wbr>SERVICE</code>, <code>FOREGROUND_<wbr>SERVICE_<wbr>LOCATION</code></td><td>Run the trip recording with a persistent notification</td></tr>
+<tr><td>Notifications<br><code>POST_<wbr>NOTIFICATIONS</code></td><td>Show the notification of an active trip</td></tr>
+<tr><td>Camera<br><code>CAMERA</code></td><td>Take photographs for sightings, reports and the profile</td></tr>
+<tr><td>Storage (Android 12 and older only)<br><code>READ_<wbr>EXTERNAL_<wbr>STORAGE</code>, <code>WRITE_<wbr>EXTERNAL_<wbr>STORAGE</code></td><td>Attach existing photographs on older Android versions; newer versions use the system photo picker, with no permission</td></tr>
+</table>
+<p>Each permission is requested when the related feature is first used and can be revoked at any time in the Device settings.</p>
+</section>
+
+<section id="security">
+<h2>9. Disclosure and security</h2>
+<p><strong>Legal requests:</strong> We may disclose Personal Data if required by law or in response to valid requests by public authorities, to protect rights and the safety of users, or to prevent wrongdoing in connection with the Service.</p>
+<p><strong>Security:</strong> We apply appropriate technical measures (encryption in transit, hashed passwords, access control), but no method of transmission over the Internet or of electronic storage is 100% secure.</p>
+</section>
+
+<section id="children">
+<h2>10. Children</h2>
+<p>The Service is not directed to anyone under the age of 13, and We do not knowingly collect Personal Data from children under 13. If You are a parent or guardian and believe Your child has provided Us with Personal Data, please contact Us and We will delete it.</p>
+</section>
+
+<section id="changes">
+<h2>11. Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes are published on this page with a new "Last updated" date.</p>
+</section>
+
+<section id="contact">
+<h2>12. Contact</h2>
+<p>Data controller: Wave Labs, ITI/LARSyS, ARDITI, Polo Científico e Tecnológico da Madeira, Caminho da Penteada, piso -2, 9020-105 Funchal, Portugal.</p>
 <ul>
-<li><strong>Location (ACCESS_FINE_LOCATION):</strong> trip route recording and sighting georeferencing.</li>
-<li><strong>Camera (CAMERA):</strong> taking photographs for reports.</li>
-<li><strong>Photo library (READ_MEDIA_IMAGES):</strong> selecting existing photographs to attach to reports or the profile.</li>
+<li>Email: <a href="mailto:team@wave-labs.org">team@wave-labs.org</a></li>
+<li>Website: <a href="https://wave-labs.org/contacts/">wave-labs.org/contacts</a></li>
+<li>Phone: +351 291 721 006</li>
+<li>Scientific enquiries about the sea turtle data: <a href="mailto:noel.ferreira@staff.uma.pt">noel.ferreira@staff.uma.pt</a> (University of Madeira)</li>
 </ul>
-<p>All permissions are requested at the moment the corresponding feature is used and can be revoked at any time in the Device settings.</p>
 </section>
-<section>
-<h2>8. Disclosure and Security</h2>
-<p><strong>Law enforcement:</strong> We may disclose Personal Data if required to do so by law or in response to valid requests by public authorities, to protect rights, the safety of users, or to prevent wrongdoing in connection with the Service.</p>
-<p><strong>Security:</strong> We apply appropriate technical measures (encryption in transit, access control), but no method of transmission over the Internet or method of electronic storage is 100% secure, and We cannot guarantee its absolute security.</p>
-</section>
-<section>
-<h2>9. Children's Privacy</h2>
-<p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us.</p>
-</section>
-<section>
-<h2>10. Changes to this Privacy Policy</h2>
-<p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top.</p>
-</section>
-<section>
-<h2>11. Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, You can contact us:</p>
-<p>By email: <a href="mailto:team@wave-labs.org">team@wave-labs.org</a><br>
-By visiting this page on our website: <a href="http://wave-labs.org/contacts/">http://wave-labs.org/contacts/</a><br>
-By phone number: +351 291 721 006</p>
-<p>Scientific enquiries about the sea turtle data may also be directed to <a href="mailto:noel.ferreira@staff.uma.pt">noel.ferreira@staff.uma.pt</a> (Universidade da Madeira).</p>
-</section>
+
 </main>
-<footer>© 2026 Wave Labs — TurtleReporter</footer>
+<footer>© 2026 Wave Labs — TurtleReporter · <a href="./delete-account.html">Account &amp; Data Deletion</a></footer>
 </body>
 </html>
