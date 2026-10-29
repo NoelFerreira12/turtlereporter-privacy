@@ -3,44 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Privacy Policy of the TurtleReporter app (sea turtle sightings, Wave Labs and University of Madeira).">
 <title>Privacy Policy — TurtleReporter</title>
-<style>
-:root{color-scheme:light dark;--bg:#f8fafc;--fg:#1e293b;--muted:#64748b;--card:#fff;--brand:#194a8e;--accent:#2563eb;--soft:#eff6ff;--line:#e2e8f0}
-@media (prefers-color-scheme:dark){:root{--bg:#0f172a;--fg:#e2e8f0;--muted:#94a3b8;--card:#1e293b;--brand:#1e3a5f;--accent:#7eb3ff;--soft:#172554;--line:#334155}}
-*{box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65;margin:0;padding:0 16px;background:var(--bg);color:var(--fg);font-size:16px}
-header{background:var(--brand);color:#fff;margin:0 -16px;padding:32px 16px;text-align:center}
-header h1{margin:0;font-size:1.7rem}
-header p{margin:6px 0 0;opacity:.9;font-size:.95rem}
-main{max-width:760px;margin:0 auto;padding-bottom:48px}
-section,nav,.summary{background:var(--card);border-radius:12px;padding:20px 24px;margin-top:20px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.summary{background:var(--soft);border-left:4px solid var(--accent)}
-.summary h2{margin-top:0}
-h2{font-size:1.15rem;color:var(--accent);margin:0 0 10px}
-h3{font-size:1rem;margin:16px 0 6px}
-nav ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
-nav li{margin-bottom:4px;break-inside:avoid}
-ul{padding-left:20px}
-li{margin-bottom:6px}
-a{color:var(--accent);overflow-wrap:anywhere}
-table{width:100%;border-collapse:collapse;font-size:.95rem}
-td,th{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
-th{font-weight:600}
-code{font-size:.88em;font-weight:400}
-.muted{color:var(--muted);font-size:.92rem}
-footer{text-align:center;font-size:.85rem;color:var(--muted);padding:24px 0}
-@media (max-width:560px){section,nav,.summary{padding:16px}header h1{font-size:1.35rem}nav ol{columns:1}table,tbody,tr,td{display:block;width:100%}tr:first-child{display:none}tr{border-top:1px solid var(--line);padding:10px 0}td{border:0;padding:2px 0}td:first-child{font-weight:600}}
-@media print{body{background:#fff;color:#000}header{background:#fff;color:#000}section,nav,.summary{box-shadow:none;border:1px solid #ccc}}
-</style>
+<meta name="description" content="Privacy Policy of the TurtleReporter app (sea turtle sightings, Wave Labs and University of Madeira).">
+<meta name="theme-color" content="#194a8e">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<header>
-<h1>Privacy Policy</h1>
-<p>TurtleReporter — Wave Labs · University of Madeira</p>
-<p>Last updated: October 29, 2026</p>
+<a class="skip" href="#conteudo">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="app.html"><img src="assets/img/icon-192.png" alt="" width="32" height="32">TurtleReporter</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="app.html">The app</a>
+      <a href="app.html#guias">How-to guide</a>
+      <a href="index.html" aria-current="page">Privacy</a>
+      <a href="delete-account.html">Delete account</a>
+    </nav>
+  </div>
 </header>
-<main>
+<main id="conteudo">
+<div class="page-hero"><div class="wrap-text"><span class="eyebrow">TurtleReporter</span><h1>Privacy Policy</h1><p class="meta-line">Wave Labs · University of Madeira · Last updated: October 29, 2026</p></div></div>
+<div class="legal"><div class="wrap-text">
 
 <div class="summary">
 <h2>At a glance</h2>
@@ -52,7 +37,7 @@ footer{text-align:center;font-size:.85rem;color:var(--muted);padding:24px 0}
 </ul>
 </div>
 
-<nav aria-label="Contents">
+<nav class="toc" aria-label="Contents">
 <h2>Contents</h2>
 <ol>
 <li><a href="#definitions">Definitions</a></li>
@@ -142,7 +127,7 @@ footer{text-align:center;font-size:.85rem;color:var(--muted);padding:24px 0}
 
 <section id="permissions">
 <h2>8. Device permissions</h2>
-<table>
+<table class="stack">
 <tr><th>Permission</th><th>Why</th></tr>
 <tr><td>Precise and approximate location<br><code>ACCESS_<wbr>FINE_<wbr>LOCATION</code>, <code>ACCESS_<wbr>COARSE_<wbr>LOCATION</code></td><td>Georeference sightings and record the route of a trip</td></tr>
 <tr><td>Background location<br><code>ACCESS_<wbr>BACKGROUND_<wbr>LOCATION</code></td><td>Keep recording the route of an active trip when the screen is off or the Application is closed</td></tr>
@@ -181,7 +166,13 @@ footer{text-align:center;font-size:.85rem;color:var(--muted);padding:24px 0}
 </ul>
 </section>
 
+</div></div>
 </main>
-<footer>© 2026 Wave Labs — TurtleReporter · <a href="./delete-account.html">Account &amp; Data Deletion</a></footer>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Wave Labs · University of Madeira</span>
+    <nav aria-label="Footer"><a href="app.html">TurtleReporter</a><a href="index.html">Privacy policy</a><a href="delete-account.html">Delete account</a></nav>
+  </div>
+</footer>
 </body>
 </html>
